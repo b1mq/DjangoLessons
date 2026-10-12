@@ -36,10 +36,15 @@ class MyDictionary:
             return False
 
 
-md = MyDictionary("First")
-md.AddWord("Hello","Привет")
 
-if md.SaveDictionary():
-    print("Dictionary saved!")
-else:
-    print("Error saving dictionary!")
+if __name__ == "__main__":
+    
+    # md = MyDictionary("First")
+    # md.AddWord("Hello","Привет")
+
+    # if md.SaveDictionary():
+    #     print("Dictionary saved!")
+    # else:
+    #     print("Error saving dictionary!")
+    
+    
